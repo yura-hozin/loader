@@ -9,6 +9,8 @@
 namespace backend\modules\loader\models;
 
 
+use backend\lib\FileInfo;
+
 abstract class MoveModel {
 
     /** @var array Массив загружаемых файлов */
